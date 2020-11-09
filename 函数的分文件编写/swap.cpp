@@ -1,4 +1,4 @@
-// ÒıÈëº¯ÊıÍ·ÎÄ¼ş
+// å¼•å…¥å¤´æ–‡ä»¶
 #include "swap.h"
 
 void swap(int a, int b) {
