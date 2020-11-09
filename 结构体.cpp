@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 
-// ¶¨Òå½á¹¹ÌåÀàĞÍ
+// å®šä¹‰ç»“æ„ä½“ç±»å‹
 struct Student
 {
-	// ³ÉÔ±ÁĞ±í
+	// æˆå‘˜åˆ—è¡¨
 	string name;
 
 	int age;
@@ -15,35 +15,35 @@ struct Student
 int main() 
 {
 	/*
-	´´½¨Ò»¸ö½á¹¹Ìå±äÁ¿µÄ3ÖÖ·½Ê½
+	åˆ›å»ºä¸€ä¸ªç»“æ„ä½“å˜é‡çš„3ç§æ–¹å¼
 	*/
 
-	// 1.ÏÈ¶¨Òåºó¸³Öµ
+	// 1.å…ˆå®šä¹‰åèµ‹å€¼
 	Student s1;
-	s1.name = "ÕÅÈı";
+	s1.name = "å¼ ä¸‰";
 	s1.score = 100;
 	s1.age = 20;
-	cout << "ĞÕÃû£º" << s1.name << endl;
-	cout << "·ÖÊı£º" << s1.score<< endl;
-	cout << "ÄêÁä£º" << s1.age << endl;
+	cout << "å§“åï¼š" << s1.name << endl;
+	cout << "åˆ†æ•°ï¼š" << s1.score<< endl;
+	cout << "å¹´é¾„ï¼š" << s1.age << endl;
 	cout << "----------" << endl;
 
-	// 2.¶¨Òå²¢¸³Öµ
-	Student s2 = { "ÀîËÄ",90,18 };
-	cout << "ĞÕÃû£º" << s2.name << endl;
-	cout << "·ÖÊı£º" << s2.score << endl;
-	cout << "ÄêÁä£º" << s2.age << endl;
+	// 2.å®šä¹‰å¹¶èµ‹å€¼
+	Student s2 = { "æå››",90,18 };
+	cout << "å§“åï¼š" << s2.name << endl;
+	cout << "åˆ†æ•°ï¼š" << s2.score << endl;
+	cout << "å¹´é¾„ï¼š" << s2.age << endl;
 	cout << "----------" << endl;
 
-	// 3.´´½¨½á¹¹ÌåÊ±ÔÚÎ²²¿¼ÓÒ»¸ö±äÁ¿
-	s3.name = "ÍõÎå";
+	// 3.åˆ›å»ºç»“æ„ä½“æ—¶åœ¨å°¾éƒ¨åŠ ä¸€ä¸ªå˜é‡
+	s3.name = "ç‹äº”";
 	s3.score = 99;
 	s3.age = 19;
-	cout << "ĞÕÃû£º" << s3.name << endl;
-	cout << "·ÖÊı£º" << s3.score << endl;
-	cout << "ÄêÁä£º" << s3.age << endl;
+	cout << "å§“åï¼š" << s3.name << endl;
+	cout << "åˆ†æ•°ï¼š" << s3.score << endl;
+	cout << "å¹´é¾„ï¼š" << s3.age << endl;
 
-	// ´´½¨½á¹¹ÌåÊı×é²¢¸³Öµ
+	// åˆ›å»ºç»“æ„ä½“æ•°ç»„å¹¶èµ‹å€¼
 	Student arr[3] = {
 		{"A",80,23},
 		{"B",90,26},
@@ -51,16 +51,16 @@ int main()
 	};
 	arr[2].name = "D";
 	for (int i = 0; i < 3; i++) {
-		cout << "ĞÕÃû£º" << arr[i].name << " "
-			<< "·ÖÊı£º" << arr[i].score << " "
-			<< "ÄêÁä£º" << arr[i].age << endl;
+		cout << "å§“åï¼š" << arr[i].name << " "
+			<< "åˆ†æ•°ï¼š" << arr[i].score << " "
+			<< "å¹´é¾„ï¼š" << arr[i].age << endl;
 	}
 	cout << "----------" << endl;
 
-	Student stu = { "Ñ§Éú¼×",99,16 };
-	// Í¨¹ıÖ¸ÕëÖ¸Ïò½á¹¹Ìå±äÁ¿
+	Student stu = { "å­¦ç”Ÿç”²",99,16 };
+	// é€šè¿‡æŒ‡é’ˆæŒ‡å‘ç»“æ„ä½“å˜é‡
 	Student* p = &stu;
-	// ÀûÓÃ->·ÃÎÊÊôĞÔ
+	// åˆ©ç”¨->è®¿é—®å±æ€§
 	cout << p->name << endl;
 	cout << p->score << endl;
 	cout << p->age << endl;
