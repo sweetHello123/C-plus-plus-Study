@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
 
-// ¶¨ÒåÑ§Éú½á¹¹Ìå
+// å®šä¹‰å­¦ç”Ÿç»“æ„ä½“
 struct Student {
 	int id;
 	string name;
 	int age;
 };
 
-// ¶¨ÒåÀÏÊ¦½á¹¹Ìå
+// å®šä¹‰è€å¸ˆç»“æ„ä½“
 struct Teacher
 {
 	int id;
@@ -20,12 +20,12 @@ struct Teacher
 int main() {
 	Teacher t;
 	t.id = 0001;
-	t.name = "ÀÏÕÅ";
+	t.name = "è€å¼ ";
 	t.age = 30;
 	t.stu.id = 01;
-	t.stu.name = "Ğ¡Íõ";
+	t.stu.name = "å°ç‹";
 	t.stu.age = 12;
 
-	cout << "Ñ§ÉúĞÕÃû£º" << t.stu.name << endl;
+	cout << "å­¦ç”Ÿå§“åï¼š" << t.stu.name << endl;
 	return 0;
 }

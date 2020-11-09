@@ -28,7 +28,7 @@ int main() {
 	int c2 = ++c1 * 10;
 	cout << "c1=" << c1 << endl;
 	cout << "22=" << c2 << endl;
-	cout << "Êä³ö9x9³Ë·¨±í" << endl;
+	cout << "è¾“å‡º9x9ä¹˜æ³•è¡¨" << endl;
 	nine_nine();
 	return 0;
 }

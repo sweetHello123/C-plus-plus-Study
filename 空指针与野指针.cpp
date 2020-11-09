@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-	//¿ÕÖ¸Õë
+	//ç©ºæŒ‡é’ˆ
 	int* p1 = NULL;
 
-	// Ò°Ö¸Õë
+	// é‡æŒ‡é’ˆ
 	int* p2 = (int *)0x1120;
 
 	return 0;

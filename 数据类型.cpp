@@ -2,13 +2,13 @@
 using namespace std;
 
 void fd() {
-	// µ¥¾«¶È¸¡µãĞÍ
+	// å•ç²¾åº¦æµ®ç‚¹å‹
 	float f1 = 3.14f;
 
-	// Ë«¾«¶È¸¡µãĞÍ
+	// åŒç²¾åº¦æµ®ç‚¹å‹
 	double d1 = 3.14;
 
-	// ¿ÆÑ§¼ÆÊı·¨
+	// ç§‘å­¦è®¡æ•°æ³•
 	float f2 = 3e2;
 
 	cout << f1 << endl;
@@ -17,10 +17,10 @@ void fd() {
 }
 
 void str() {
-	// C·ç¸ñ×Ö·û´®
+	// Cé£æ ¼å­—ç¬¦ä¸²
 	char ch[] = "hello";
 
-	// C++·ç¸ñ×Ö·û´®
+	// C++é£æ ¼å­—ç¬¦ä¸²
 	string str = "world";
 
 	cout << ch << endl;
@@ -28,11 +28,11 @@ void str() {
 }
 
 void bf() {
-	// ²¼¶ûÀàĞÍ
+	// å¸ƒå°”ç±»å‹
 	bool b1 = true;
 	bool b2 = false;
 
-	// Êä³ö1ºÍ0
+	// è¾“å‡º1å’Œ0
 	cout << b1 << endl;
 	cout << b2 << endl;
 	cout << sizeof(bool) << endl;
@@ -40,14 +40,14 @@ void bf() {
 
 void in() {
 	int a;
-	cout << "ÇëÊäÈëÒ»¸öÕûÊı" << endl;
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°" << endl;
 	cin >> a;
-	cout << "ÊäÈëµÄÕûÊı£º"<<a << endl;
+	cout << "è¾“å…¥çš„æ•´æ•°ï¼š"<<a << endl;
 
 	string s;
-	cout << "ÇëÊäÈëÒ»¸ö×Ö·û´®" << endl;
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²" << endl;
 	cin >> s;
-	cout << "ÊäÈëµÄ×Ö·û´®£º" << s << endl;
+	cout << "è¾“å…¥çš„å­—ç¬¦ä¸²ï¼š" << s << endl;
 }
 
 int main()
@@ -57,7 +57,7 @@ int main()
 	long num3 = 100;
 	long long num4 = 100;
 
-	// Í³¼ÆÊı¾İÀàĞÍËùÕ¼µÄÄÚ´æ´óĞ¡:sizeof(±äÁ¿/Êı¾İÀàĞÍ)
+	// ç»Ÿè®¡æ•°æ®ç±»å‹æ‰€å çš„å†…å­˜å¤§å°:sizeof(å˜é‡/æ•°æ®ç±»å‹)
 	cout << sizeof(short) << endl;
 	cout << sizeof(num2) << endl;
 	cout << sizeof(long) << endl;
