@@ -2,5 +2,5 @@
 #include<iostream>
 using namespace std;
 
-// º¯ÊıÉùÃ÷
+// æ–¹æ³•å£°æ˜
 void swap(int a, int b);
